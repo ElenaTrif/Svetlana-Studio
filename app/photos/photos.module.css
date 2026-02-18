@@ -13,23 +13,24 @@
   .photoGrid {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
   
   .photoItem {
-    overflow: hidden;
-    border-radius: 8px;
-    transition: transform 0.3s;
-  }
-  
-  .photoItem:hover {
-    transform: scale(1.05);
-  }
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.photoItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
   
   .photo {
     width: 100%;
-    height: 200px; /* Vous pouvez ajuster la hauteur selon vos préférences */
-  object-fit: cover;
+    aspect-ratio: 1 / 1; /* carré parfait */
+    object-fit: cover;
     display: block;
   }
   
