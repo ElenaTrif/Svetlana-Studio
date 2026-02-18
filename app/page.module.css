@@ -249,7 +249,7 @@
 /* Effet de survol */
 .ctas .primary:hover,
 .ctas1 .primary:hover {
-  background-color: #f33ea1;
+  background-color: #bf066c;
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
 }
@@ -277,7 +277,7 @@
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: bold;
-  color: #f33ea1;
+  color: #bf066c;
   text-transform: uppercase;
   white-space: nowrap;
   display: inline-block;
